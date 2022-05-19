@@ -3,10 +3,10 @@
 *Código*
 <p>
   <ul>
-    <li>O código tem como finalidade fazer a soma de todos os elementos de uma matriz quadrada que será fornecida pelo usuário.<br />
-    <li>Para começar é solicitado ao usuário a quantidade de linhas e de colunas, necessitando de apenas um número já que a matriz é quadrada.<br />
-    <li>Após receber o tamanho da matriz threads foram utilizadas para receber os números que irão compor a matriz e montá-la.<br />
-    <li>Com a montagem da matriz completa o programa somará todos os números dela e retornará ao usuário o resultado final.<br />
+    <li>O código tem como finalidade mostrar o as threads que produzem dados e as threads que consomem dados, utilizando um buffer circular, que quando chega ao final retorna ao valor 0.<br />
+    <li>Para começar é solicitado ao usuário a quantidade de produtores e consumidores, o limite e o tamanho do buffer.<br />
+    <li>Então os produtores produzem dados para esse buffer e os consumidores consomem os dados dele.<br />
+    <li>Após a inserção dos valores atributos o programa vai mostrando qual produtor ou consumidor está produzindo ou consumindo em qual posição do buffer gradativamente.<br />
    </ul></p>
    
    
