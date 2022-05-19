@@ -14,7 +14,7 @@ pthread_t *consumidores;
 
 int produto(pthread_t self){
 	int i = 0;
-	int p = 1 + rand()%40;
+	int p = 1 + rand()%B;
 	while(!pthread_equal(*(produtores+i),self) && i < P){
 		i++;
 	}
